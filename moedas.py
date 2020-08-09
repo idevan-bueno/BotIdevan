@@ -56,7 +56,7 @@ def get_quotations(is_taxa):
                 arr_moedas.append(arr)
                 arr = 'variação..: ' + str(dadosmd['variation'])
                 arr_moedas.append(arr)
-                arr = '____________________________'
+                arr = ' '
                 arr_moedas.append(arr)
 
     return arr_moedas
@@ -101,7 +101,7 @@ def get_ibovespa(is_baixa):
             arr_ibovespa.append(arr)
             arr = 'market cap..: ' + str(dados_acao['market_cap'])
             arr_ibovespa.append(arr)
-            arr = '____________________________'
+            arr = ' '
             arr_ibovespa.append(arr)
 
     return arr_ibovespa
