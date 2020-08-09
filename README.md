@@ -8,6 +8,8 @@ Chatbot de consulta de dados financeiros:
 
 Utiliza o Watson Assistant como gerenciador e a API da HG Brasil para consultas.
 
+------> https://hgbrasil.com/status/finance
+
 ## Branches
 
 * Master: branch original que utiliza o long polling do Telegram
