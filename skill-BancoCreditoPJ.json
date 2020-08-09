@@ -1,0 +1,847 @@
+{
+  "intents": [
+    {
+      "intent": "assinaturas",
+      "examples": [
+        {
+          "text": "Onde assino o contrato?"
+        },
+        {
+          "text": "Onde encontro as pendências de assinatura?"
+        },
+        {
+          "text": "Onde o avalista assina o contrato?"
+        },
+        {
+          "text": "Quem falta assinar?"
+        },
+        {
+          "text": "Eu quero assinar meu contrato"
+        },
+        {
+          "text": "Onde visualizo os documentos?"
+        },
+        {
+          "text": "Onde registro minha assinatura?"
+        }
+      ],
+      "description": "pendencias de assinatura"
+    },
+    {
+      "intent": "horario",
+      "examples": [
+        {
+          "text": "até que horas o sistema permite"
+        },
+        {
+          "text": "até que horas"
+        },
+        {
+          "text": "horário limite"
+        },
+        {
+          "text": "qual o horário limite?"
+        },
+        {
+          "text": "que horas o sistema permite?"
+        },
+        {
+          "text": "quais os horários permitidos"
+        }
+      ],
+      "description": "horario limite"
+    },
+    {
+      "intent": "notificar_avalista",
+      "examples": [
+        {
+          "text": "Como notificar um avalista?"
+        },
+        {
+          "text": "Qual o menu de notificações?"
+        },
+        {
+          "text": "Eu quero notificar um signatário"
+        },
+        {
+          "text": "Onde notifico um signatário?"
+        },
+        {
+          "text": "Onde consigo notificar um interveniente?"
+        },
+        {
+          "text": "Eu quero notificar um avalista"
+        }
+      ],
+      "description": "fluxo de notificação de avalista"
+    },
+    {
+      "intent": "credencialPJ",
+      "examples": [
+        {
+          "text": "Como gerar credencial?"
+        },
+        {
+          "text": "Como faço para gerar uma chave J?"
+        },
+        {
+          "text": "Como gerar uma chave J?"
+        },
+        {
+          "text": "Eu quero gerar uma chave para acesso de preposto da empresa"
+        },
+        {
+          "text": "como gero uma chave de acesso?"
+        },
+        {
+          "text": "Onde gero chaves de acesso?"
+        },
+        {
+          "text": "Onde gero chaves J?"
+        },
+        {
+          "text": "Qual o menu para gerar uma chave de acesso?"
+        },
+        {
+          "text": "Como criar chaves de acesso?"
+        },
+        {
+          "text": "credencial"
+        },
+        {
+          "text": "Eu quero gerar credenciais"
+        }
+      ],
+      "description": "gerar chave J"
+    },
+    {
+      "intent": "ações",
+      "examples": [
+        {
+          "text": "bolsa de valores"
+        },
+        {
+          "text": "Quais são as maiores altas?"
+        },
+        {
+          "text": "Quais são as maiores baixas?"
+        },
+        {
+          "text": "ibovespa"
+        },
+        {
+          "text": "quero saber as altas"
+        },
+        {
+          "text": "quero saber as baixas"
+        },
+        {
+          "text": "mercado de ações"
+        },
+        {
+          "text": "ações"
+        }
+      ],
+      "description": "altas e baixas das ações"
+    },
+    {
+      "intent": "consulta_operacoes",
+      "examples": [
+        {
+          "text": "onde posso consultar propostas?"
+        },
+        {
+          "text": "eu quero saber os dados de uma operação"
+        },
+        {
+          "text": "eu preciso consultar minhas operações"
+        },
+        {
+          "text": "onde consulto minhas operações de crédito?"
+        },
+        {
+          "text": "onde visualizo minhas operações?"
+        },
+        {
+          "text": "onde vejo dados das liberações de crédito efetuadas?"
+        },
+        {
+          "text": "qual o menu de consultas das operações?"
+        }
+      ],
+      "description": "consultar propostas, operações"
+    },
+    {
+      "intent": "simular_credito",
+      "examples": [
+        {
+          "text": "Eu quero simular capital de giro"
+        },
+        {
+          "text": "Eu quero simular condições"
+        },
+        {
+          "text": "Onde posso encontrar um simulador?"
+        },
+        {
+          "text": "Qual o menu de simulação de crédito?"
+        },
+        {
+          "text": "Onde simular capital de giro?"
+        },
+        {
+          "text": "Eu quero simular crédito"
+        }
+      ],
+      "description": "simulação de crédito"
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "boa noite"
+        },
+        {
+          "text": "bom dia"
+        },
+        {
+          "text": "boa tarde"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "olá"
+        }
+      ],
+      "description": "saudacao"
+    },
+    {
+      "intent": "cancelar_credito",
+      "examples": [
+        {
+          "text": "Eu quero cancelar uma formalização"
+        },
+        {
+          "text": "Eu quero cancelar uma liberação"
+        },
+        {
+          "text": "Eu quero cancelar minha operação"
+        },
+        {
+          "text": "Eu quero cancelar minha proposta"
+        },
+        {
+          "text": "Como cancelar uma liberação de crédito?"
+        },
+        {
+          "text": "O que devo fazer para cancelar uma operação?"
+        },
+        {
+          "text": "O que devo fazer para cancelar uma proposta?"
+        },
+        {
+          "text": "desejo cancelar"
+        }
+      ],
+      "description": "cancelamentos"
+    },
+    {
+      "intent": "cotacoes",
+      "examples": [
+        {
+          "text": "cotação da libra"
+        },
+        {
+          "text": "eu quero saber o preço"
+        },
+        {
+          "text": "cotação do euro"
+        },
+        {
+          "text": "cotação do bitcoin"
+        },
+        {
+          "text": "quero saber a cotação"
+        },
+        {
+          "text": "quero cotações"
+        },
+        {
+          "text": "qual a cotação?"
+        },
+        {
+          "text": "qual a cotação do euro?"
+        },
+        {
+          "text": "preço do dólar"
+        },
+        {
+          "text": "preço do bitcoin"
+        }
+      ],
+      "description": "cotações"
+    },
+    {
+      "intent": "finalizacao",
+      "examples": [
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "até breve"
+        },
+        {
+          "text": "até logo"
+        }
+      ],
+      "description": "termino"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "linha_de_credito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Antecipação de Crédito ao Lojista",
+          "synonyms": [
+            "antecipação",
+            "ACL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Capital de Giro",
+          "synonyms": [
+            "giro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Desconto de Títulos",
+          "synonyms": [
+            "Desconto",
+            "Desconto de Duplicatas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Financiamento",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cheque Ouro",
+          "synonyms": [
+            "cheque"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_cotacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cambio",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "taxas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "taxa",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_ibovespa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "baixas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "altas",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "cambio ou taxas?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1596925484610",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1596925484610",
+      "previous_sibling": "handler_4_1596925484610"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1596925484610",
+      "context": {
+        "tipo_cotacao": "@tipo_cotacao"
+      },
+      "conditions": "@tipo_cotacao",
+      "event_name": "input",
+      "dialog_node": "handler_4_1596925484610"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "as ações da bolsa são: $resposta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1596990021268",
+      "context": {
+        "tipo_ibovespa": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1596990021272",
+      "previous_sibling": "slot_8_1596990021272"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1596990021268",
+      "variable": "$tipo_ibovespa",
+      "dialog_node": "slot_8_1596990021272"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "as cotações são: $resposta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1596925484605",
+      "context": {
+        "tipo_cotacao": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1596925484610",
+      "previous_sibling": "slot_3_1596925484610"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1596925484605",
+      "variable": "$tipo_cotacao",
+      "dialog_node": "slot_3_1596925484610"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "altas ou baixas?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1596990021272",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1596990021272",
+      "previous_sibling": "handler_9_1596990021272"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1596990021272",
+      "context": {
+        "tipo_ibovespa": "@tipo_ibovespa"
+      },
+      "conditions": "@tipo_ibovespa",
+      "event_name": "input",
+      "dialog_node": "handler_9_1596990021272"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para ACL o limite de horário é até 17:00 hrs."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592976621341",
+      "conditions": "@linha_de_credito:(Antecipação de Crédito ao Lojista)",
+      "dialog_node": "node_2_1592977033823"
+    },
+    {
+      "type": "standard",
+      "title": "#cancelamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode efetuar o cancelamento via menu de Empréstimos - cancelamento.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancelar_credito",
+      "dialog_node": "node_8_1593026197009",
+      "previous_sibling": "node_4_1594143824617"
+    },
+    {
+      "type": "frame",
+      "title": "#cotacao",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "quotations",
+          "type": "client",
+          "parameters": {
+            "tipo_cotacao": "$tipo_cotacao"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#cotacoes",
+      "dialog_node": "node_1_1596925484605",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "#notificacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você poderá visualizar os intervenientes e notificá-los através do menu Empréstimos - Notificações"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#notificar_avalista",
+      "dialog_node": "node_3_1593025647926",
+      "previous_sibling": "node_8_1593026197009"
+    },
+    {
+      "type": "standard",
+      "title": "#saudacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá"
+              },
+              {
+                "text": "Oi"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudacao",
+      "dialog_node": "node_9_1592976600597",
+      "previous_sibling": "node_6_1596990021268"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1592976630176",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "#finalizacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tchau"
+              },
+              {
+                "text": "até breve"
+              },
+              {
+                "text": "até logo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#finalizacao",
+      "dialog_node": "node_3_1592976630176",
+      "previous_sibling": "node_9_1593025916116"
+    },
+    {
+      "type": "standard",
+      "title": "#horario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Sistema permite contratações até 20:00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#horario",
+      "dialog_node": "node_9_1592976621341",
+      "previous_sibling": "node_9_1592976600597"
+    },
+    {
+      "type": "standard",
+      "title": "#assinatura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você poderá visualizar os documentos e assinar digitalmente através do menu de Empréstimos - pendências de assinatura."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#assinaturas",
+      "dialog_node": "node_9_1593025916116",
+      "previous_sibling": "node_3_1593025647926"
+    },
+    {
+      "type": "standard",
+      "title": "#consultas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode consultar suas propostas e liberações no menu de Empréstimos - consultas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#consulta_operacoes",
+      "dialog_node": "node_10_1593027055038",
+      "previous_sibling": "node_10_1593025511790"
+    },
+    {
+      "type": "frame",
+      "title": "#acao",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "name": "ibovespa",
+          "type": "client",
+          "parameters": {
+            "tipo_ibovespa": "$tipo_ibovespa"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#ações",
+      "dialog_node": "node_6_1596990021268",
+      "previous_sibling": "node_1_1596925484605"
+    },
+    {
+      "type": "standard",
+      "title": "#credencial",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode gerar as chaves de acesso através do menu de Segurança - gerenciamento de chaves"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#credencialPJ",
+      "dialog_node": "node_4_1594143824617",
+      "previous_sibling": "node_10_1593027055038"
+    },
+    {
+      "type": "standard",
+      "title": "#simulacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você pode efetuar uma simulação de crédito através do menu de Empréstimos - simuladores"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#simular_credito",
+      "dialog_node": "node_10_1593025511790",
+      "previous_sibling": "node_9_1592976621341"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "BancoCreditoPJ",
+  "language": "pt-br",
+  "description": "Duvidas Credito PJ"
+}
